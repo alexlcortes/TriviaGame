@@ -10,3 +10,16 @@ var trivGame = {
 	q9: ['2 * 2 = 4', true],
 	q10: ['Cars can talk.', false]
 };
+
+$(document).ready(function() {
+
+
+$('.start').on('click', function() {    
+	setTimeout(testSeconds, 5000);
+	});
+
+function testSeconds() {
+	console.log("Five seconds have passed.");
+}
+
+});
