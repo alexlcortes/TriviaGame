@@ -10,16 +10,33 @@ var trivGame = {
 	q9: ['2 * 2 = 4', true],
 	q10: ['Cars can talk.', false]
 };
-
+// Page loads when refreshed
 $(document).ready(function() {
 
+var timer = 30;
 
-$('.start').on('click', function() {    
-	setTimeout(testSeconds, 5000);
+$('.start').on('click', run);
+	
+
+		function run(){
+	    	counter = setInterval(increment, 1000);
+	    	$('.start').hide("slow");
+	    }
+
+	    function increment(){
+		    timer--;
+			$('.show-counter').html('<h2>' + timer + '</h2>');
+			if (timer === 0){
+			stop();
+		    alert("Time's Up!")
+	      	}
+	    }
+
+	    function stop(){
+	    	clearInterval(counter);
+	    }
+
 	});
+   
 
-function testSeconds() {
-	console.log("Five seconds have passed.");
-}
 
-});
