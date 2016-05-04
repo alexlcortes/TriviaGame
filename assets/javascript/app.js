@@ -15,18 +15,18 @@ $(document).ready(function() {
 
 var right = 0;
 var wrong = 0;
-var timer = 15;
+var timer = 20;
 
-$('.ans1').hide();
-$('.ans2').hide();
+$('.panel-body').hide();
+// $('.ans2').hide();
 $('.play-again').hide();
 
 $('.start').on('click', run);
 	
 	function run(){
     	counter = setInterval(increment, 1000);
-    	$('.ans1').show();
-    	$('.ans2').show();
+    	$('.panel-body').show();
+    	// $('.ans2').show();
     	$('.start').hide("slow");
 
     	$('.quest1').html(trivGame[0].q1);
@@ -178,8 +178,18 @@ $('.start').on('click', run);
 		if (timer === 0){
 		stop();
 	    $('.time-up').html('<h2>' + 'Your Time is up!' + '</h2>');
-	    $('.ans1').hide();
-		$('.ans2').hide();
+	    $('.panel-body').hide();
+	    $('#first').hide();
+	    $('#second').hide();
+	    $('#third').hide();
+	    $('#fourth').hide();
+	    $('#fifth').hide();
+	    $('#six').hide();
+	    $('#seventh').hide();
+	    $('#eighth').hide();
+	    $('#ninth').hide();
+	    $('#tenth').hide();
+		// $('.ans2').hide();
 		// $('.play-again').show();
       	}
     }

@@ -2,17 +2,34 @@
 	color: #FFFFFF;
 }
 
-.ans1 {
+.start {
 	color: #000080;
 }
 
+/*.ans1 {
+	color: #000080;
+}*/
+
+.legend {
+	color: #FFFFFF;
+}
+
+/*#tru1 {
+	background-image: url(../images/blue-balloon.png);
+	width: 30%;
+  	height: 30%;
+  	background-repeat: no-repeat;
+  	display: inline;
+}
+*/
 .ans2 {
 	color: #000080;
 }
 
 body {
     background: url(../images/bground1.png);
-    background-size: 100%;
+/*    background-size: 100%;*/
+    background-repeat: no-repeat;
 }
 
 /*button {
