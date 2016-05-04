@@ -1,2 +1,88 @@
+.page-header {
+	color: #FFFFFF;
+}
+
 .ans1 {
+	color: #000080;
+}
+
+.ans2 {
+	color: #000080;
+}
+
+body {
+    background: url(../images/bground1.png);
+    background-size: 100%;
+}
+
+/*button {
+	color: #000080;
+}*/
+
+.show-counter{
+	color: #FFFFFF;
+}
+
+.time-up {
+	color: #FFFFFF;
+}
+
+.right {
+	color: #FFFFFF;
+
+}
+
+.wrong {
+	color: #FFFFFF;
+
+}
+
+.quest1 {
+	color: #FFFFFF;
+
+}
+
+.quest2 {
+	color: #FFFFFF;
+
+}
+
+.quest3 {
+	color: #FFFFFF;
+
+}
+
+.quest4 {
+	color: #FFFFFF;
+
+}
+
+.quest5 {
+	color: #FFFFFF;
+
+}
+
+.quest6 {
+	color: #FFFFFF;
+
+}
+
+.quest7 {
+	color: #FFFFFF;
+
+}
+
+.quest8 {
+	color: #FFFFFF;
+
+}
+
+.quest9 {
+	color: #FFFFFF;
+
+}
+
+.quest10 {
+	color: #FFFFFF;
+
 }
